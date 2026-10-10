@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ni Kadek Sri Utari Dewi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu Navigasi -->
+    <header>
+        <div class="container navbar">
+            <div class="logo">Portofolio</div>
+            <nav>
+                <a href="#tentang">Tentang</a>
+                <a href="#pendidikan">Pendidikan</a>
+                <a href="#keahlian">Keahlian</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="container">
+
+        <!-- 1. Section Tentang -->
+        <section id="tentang" class="card profile-card">
+            <img src="IMG_5766.jpg" alt=""width="150" height="150">
+            <div class="profile-text">
+                <h1><strong>Ni Kadek Sri Utari Dewi</strong></h1>
+                <h2><strong>Mahasiswa Rekayasa Sistem Komputer </strong></h2>
+                <p>Hallo saya seorang Mahasiswa yang masih berfokus pada pendidikan di bidang teknologi.</p>
+                <p>Saya menyukai hal-hal baru di bidang teknologi dan selalu ingin belajar lebih banyak tentang teknologi.</p>
+                <p>Sekarang saya sedang mempelajari Web Programing.</p>
+                <p class="social-links">
+                    <strong>Media Sosial:</strong>
+                    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a> | 
+                    <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="">+62 87894484394</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- 2. Section Pendidikan -->
+        <section id="pendidikan" class="card">
+            <h2>Riwayat Pendidikan</h2>
+            
+            <h3>Tingkat Pendidikan</h3>
+            <ol>
+                <li>SMA Negeri 2 Mengwi</li>
+                <li>Sedang menempuh S1 Rekayasa Sistem Komputer - Institut Bisnis dan Teknologi Indonesia</li>
+            </ol>
+
+            <h3>Detail Riwayat Pendidikan</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Tingkat</th>
+                        <th rowspan="2">Nama Instansi</th>
+                        <th colspan="2">Periode Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SMA</td>
+                        <td>SMA Negeri 2 Mengwi</td>
+                        <td>2022</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>Institut Bisnis dan Teknologi Indonesia</td>
+                        <td>2025</td>
+                        <td>Sekarang</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 3. Section Keahlian -->
+        <section id="keahlian" class="card">
+            <h3>Hobi & Keahlian</h3>
+            <dl>
+                <dt>Mengedit Foto</dt>
+                <dd>Mampu mengedit foto-foto yang kotor dan menghilangkan objek yang mengganggu.</dd>
+
+                <dt>Melukis</dt>
+                <dd>Mampu melukis pemandangan yang sederhana.</dd>
+
+                <dt>Mencoba hal baru</dt>
+                <dd>Saya suka mencoba hal-hal yang menarik</dd>
+
+                <dt>Bersepeda</dt>
+                <dd>Saya akan melakukan ini jika memiliki waktu luang</dd>
+            </dl>
+        </section>
+
+        <!-- 4. Section Kontak -->
+        <section id="kontak" class="card">
+            <h2>Hubungi Saya</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Alamat Email:</label>
+                    <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="topik">Topik Pesan:</label>
+                    <select id="topik" name="topik">
+                        <option value="umum">Pertanyaan Umum</option>
+                        <option value="proyek">Penawaran Proyek</option>
+                        <option value="kerjasama">Kerja Sama</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ni Kadek Sri Utari Dewi. Seluruh Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
